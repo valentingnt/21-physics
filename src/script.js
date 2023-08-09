@@ -36,9 +36,10 @@ debugObject.reset = () => {
     object.body.removeEventListener('collide', playHitSound)
     world.removeBody(object.body)
 
-    // Remove from objects to update
-    objectsToUpdate.splice(0, objectsToUpdate.length)
   })
+
+  // Remove from objects to update
+  objectsToUpdate.splice(0, objectsToUpdate.length)
 }
 
 gui.add(debugObject, 'reset')
