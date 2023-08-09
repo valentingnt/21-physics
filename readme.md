@@ -1,6 +1,8 @@
 # Physics 3D experimentation
+Hey Sticker Mule's team ! I hope you're doing well.
+I wanted to show you this particular project I made following the Threejs Journey course by Bruno Simon. In this particular project you can create boxes and spheres that react with each other. I tried to optimize everything so it works well in every browser and mobile devices.
 
-## Setup
+## Setup locally
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
 
